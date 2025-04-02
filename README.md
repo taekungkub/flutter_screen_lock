@@ -24,3 +24,12 @@ dependencies:
     sdk: flutter
   local_auth: ^2.0.0
   flutter_screen_lock: ^9.0.4
+```
+
+# 🚀 Android Setup
+
+## 2️⃣ AndroidManifest.xml
+Add the following permissions inside `<manifest>`:
+```xml
+<uses-permission android:name="android.permission.USE_BIOMETRIC" />
+<uses-permission android:name="android.permission.USE_FINGERPRINT" />
